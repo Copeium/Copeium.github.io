@@ -6,43 +6,28 @@
     </head>
 
     <body>
-        <header>header here</header>
-        <h1>Thesis finder</h1>
-        <p>try</p>
-        <table>
-            <!-- Table Header -->
-            <tr>
-              <th>Thesis</th>
-              <th>Year</th>
-            </tr>
-            <!-- Table Rows -->
-            <tr>
-              <td>Easy asdasdasddddddddddddddddddddd</td>
-              <td>123123</td>
-            </tr>
-            <tr>
-              <td>titlehere</td>
-              <td>11111</td>
-            </tr>
-            <tr>
-              <td>Cell</td>
-              <td>2025</td>
-            </tr>
-            <tr>
-                <td>Try</td>
-                <td>1985</td>
-            </tr>
-            <tr>
-                <td>Try</td>
-                <td>1985</td>
-            </tr><tr>
-                <td>Try</td>
-                <td>1985</td>
-            </tr><tr>
-                <td>Try</td>
-                <td>1985</td>
-            </tr>
-        </table>
-          
+        <div class="main_content">
+            <header>header here</header>
+            <h1>Thesis finder</h1>
+            <p>try</p>
+            <table>
+              <!-- Table Header -->
+              <thead>
+                <tr>
+                  <th>Thesis</th>
+                  <th>Year</th>
+                </tr>
+              </thead>
+
+              <!-- Table Rows -->
+              <tbody id="tableBody">
+                <!--Add thru js-->
+              </tbody>
+            </table>
+        </div>
+        <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-app-compat.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore-compat.js"></script>
+        <script type='module' src="init-firebase.js"></script>
+        <script type="module" src="display-list.js"></script>
     </body>
 </html>

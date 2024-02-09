@@ -6,7 +6,6 @@ table {
 }
   
 th, td {
-    /*border:  1px solid rgb(0, 0, 0);*/
     text-align: left;
     padding:  8px;
     width: 150px;
@@ -16,15 +15,25 @@ th:first-child, td:first-child {
 }
 
 tr:nth-child(even) {
-    background-color: #9797975d;
+    background-color: #dfdfdf;
 }
-  
+
 
 tr:nth-child(odd) {
     background-color: #ffffff;
 }
  
+th{
+    font-size: large;
+    background-color: #04eeda5d;
+}
+
 body {
     font-family: Arial, sans-serif;
 }
-  
+
+header{
+    background-color: skyblue;
+    font-size: large;
+    text-align: center;
+}
